@@ -146,8 +146,6 @@ const Footer: React.FC = () => {
                 <MapPin className="w-5 h-5 text-blue-400 mr-3 mt-0.5" />
                 <span className="text-gray-400">
                   La Habana del Este, Cojimar
-                  <br />
-                  Pasaje Central E/G y H
                 </span>
               </li>
             </ul>

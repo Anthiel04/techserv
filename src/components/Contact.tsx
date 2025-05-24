@@ -59,8 +59,6 @@ export const Contact = () => {
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400">
                     La Habana del Este, Cojimar
-                    <br />
-                    Pasaje Central E/G y H
                   </p>
                 </div>
               </div>

@@ -30,7 +30,6 @@ function App() {
       <main>
         {isDark && (
           <WavyBackground
-            containerClassName="h-full"
             waveWidth={100}
             colors={["#1e3a8a", "#2563eb", "#3b82f6"]}
             backgroundFill="black"
@@ -39,15 +38,10 @@ function App() {
           </WavyBackground>
         )}
         {!isDark && (
-          <WavyBackground
-            containerClassName="h-full"
-            waveWidth={100}
-            backgroundFill="white"
-          >
+          <WavyBackground waveWidth={100} backgroundFill="white">
             <Hero />
           </WavyBackground>
         )}
-
         <Services />
         <List />
         <About />
