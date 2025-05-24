@@ -4,7 +4,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="inicio"
-      className="relative h-[80dvh] flex justify-center pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-gray-900 dark:to-blue-950"
+      className="relative h-[80dvh] flex justify-center pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br "
     >
       <div className="container flex justify-center px-4 md:px-6">
         <div className="flex flex-col items-center md:flex-row md:justify-between">
@@ -33,10 +33,10 @@ const Hero: React.FC = () => {
           </div>
           <div className="flex justify-center md:w-5/12">
             <div className="relative">
-              <div className="absolute rounded-lg -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 blur opacity-30 animate-pulse"></div>
-              <div className="relative p-6 bg-white rounded-lg shadow-xl dark:bg-gray-800">
+              <div className="absolute "></div>
+              <div className="relative p-6">
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="flex flex-col items-center p-4 text-center rounded-lg bg-blue-50 dark:bg-blue-900">
+                  <div className="bg-white/25 dark:bg-white/5 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-sm border border-white/18 flex flex-col items-center p-4 text-center rounded-lg">
                     <div className="mb-2 font-bold text-blue-700 dark:text-blue-300">
                       Apps
                     </div>
@@ -44,7 +44,8 @@ const Hero: React.FC = () => {
                       Instalación
                     </p>
                   </div>
-                  <div className="flex flex-col items-center p-4 text-center rounded-lg bg-blue-50 dark:bg-blue-900">
+
+                  <div className="bg-white/25 dark:bg-white/5 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-sm border border-white/18 flex flex-col items-center p-4 text-center rounded-lg">
                     <div className="mb-2 font-bold text-blue-700 dark:text-blue-300">
                       Asesoramiento
                     </div>
@@ -52,7 +53,8 @@ const Hero: React.FC = () => {
                       Instrucciones/Enseñanza personalizada
                     </p>
                   </div>
-                  <div className="flex flex-col items-center p-4 text-center rounded-lg bg-blue-50 dark:bg-blue-900">
+
+                  <div className="bg-white/25 dark:bg-white/5 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-sm border border-white/18 flex flex-col items-center p-4 text-center rounded-lg">
                     <div className="mb-2 font-bold text-blue-700 dark:text-blue-300">
                       Cuentas
                     </div>
@@ -60,7 +62,8 @@ const Hero: React.FC = () => {
                       Recuperación/Creación
                     </p>
                   </div>
-                  <div className="flex flex-col items-center p-4 text-center rounded-lg bg-blue-50 dark:bg-blue-900">
+
+                  <div className="bg-white/25 dark:bg-white/5 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-sm border border-white/18 flex flex-col items-center p-4 text-center rounded-lg">
                     <div className="mb-2 font-bold text-blue-700 dark:text-blue-300">
                       Sistemas
                     </div>
