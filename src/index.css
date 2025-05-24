@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+* {
+  user-select: none;
+  scroll-behavior: smooth;
+}
