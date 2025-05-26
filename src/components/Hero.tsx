@@ -4,7 +4,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="inicio"
-      className="relative h-[80dvh] flex justify-center pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br "
+      className="relative h-[80dvh] mb-64 flex justify-center pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br "
     >
       <div className="container flex justify-center px-4 md:px-6">
         <div className="flex flex-col items-center md:flex-row md:justify-between">
@@ -33,14 +33,14 @@ const Hero: React.FC = () => {
           </div>
           <div className="flex justify-center md:w-5/12">
             <div className="relative">
-              <div className="absolute "></div>
+              <div className="absolute"></div>
               <div className="relative p-6">
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="bg-white/25 dark:bg-white/5 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-sm border border-white/18 flex flex-col items-center p-4 text-center rounded-lg">
                     <div className="mb-2 font-bold text-blue-700 dark:text-blue-300">
                       Apps
                     </div>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">
+                    <p className="text-sm text-gray-600 dark:text-gray-300 break-words">
                       Instalación
                     </p>
                   </div>
@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
                     <div className="mb-2 font-bold text-blue-700 dark:text-blue-300">
                       Asesoramiento
                     </div>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">
+                    <p className="text-sm text-gray-600 dark:text-gray-300 break-words">
                       Instrucciones/Enseñanza personalizada
                     </p>
                   </div>
@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
                     <div className="mb-2 font-bold text-blue-700 dark:text-blue-300">
                       Cuentas
                     </div>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">
+                    <p className="text-sm text-gray-600 dark:text-gray-300 break-words">
                       Recuperación/Creación
                     </p>
                   </div>
@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
                     <div className="mb-2 font-bold text-blue-700 dark:text-blue-300">
                       Sistemas
                     </div>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">
+                    <p className="text-sm text-gray-600 dark:text-gray-300 break-words">
                       Reinstalaciones limpias de S.O.
                     </p>
                   </div>

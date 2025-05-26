@@ -41,7 +41,7 @@ export const Contact = () => {
                   <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
                     Email
                   </h3>
-                  <p className="text-gray-600 dark:text-gray-400">
+                  <p className="text-gray-600 break-all dark:text-gray-400">
                     moreirahernandezwilliam@gmail.com
                   </p>
                 </div>

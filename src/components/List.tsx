@@ -51,8 +51,10 @@ const List = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-4xl text-center mb-6"> Listado de Servicios </h1>
-      <Table>
-        <TableCaption>Listado de Servicios</TableCaption>
+      <Table className="w-full">
+        <TableCaption>
+          Si tu servicio no se encuentra igual puedes preguntar
+        </TableCaption>
         <TableHeader>
           <TableRow>
             <TableHead className="w-[100px]">Servicio</TableHead>
